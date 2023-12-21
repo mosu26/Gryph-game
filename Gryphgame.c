@@ -243,8 +243,8 @@ int main () {// indicates that we are running our main program
 
     ++currentQuestion;//updates the while condition by increasing current question by 1 
     printf("Question 4: Here is the $5000 question\n");
-    printf("How many brains does an octopus have?\n");
-    printf("A. 9\nB. 2\nC. 1\nD. 16\n");
+    printf("What are the 2 majors offered in the Bachelor of Computing?\n");
+    printf("A. Software Engineering and Computer Science\nB. Data Science and Computer Science\nC. Data Analytics and Data Science\nD. Computer Science and Project Management\n");
 
     lifeChoice = ' ';// reinitialize the user's choice of using the lifeline
     userAnswer = ' ';// reinitialize the user's answer
@@ -269,7 +269,7 @@ int main () {// indicates that we are running our main program
       if (lifeChoice =='Y'|| lifeChoice =='y'){// set the if condition for yes to using the lifeline 
         printf("OK - here are your 2 choices after using the 50-50 lifeline\n");
         lifeLine = 1;// set the value of lifeline to 1 because it has been used
-        printf("A. 9\nB. 2\n");
+        printf("A. Software Engineering and Computer Science\nB. Data Science and Computer Science\n");
         printf("Reminder - You get only 1 lifeline - and you are using it now\n");
         while(userAnswer!='A'&& userAnswer!='B'){// set condition for accepted characters for users answer
           printf("Enter your FINAL ANSWER ('A', or 'B') here:");
@@ -317,8 +317,8 @@ int main () {// indicates that we are running our main program
 
     ++currentQuestion;//update the while condition by increasing the current question by 1
     printf("Question 5: Here is the $10,000 question\n");
-    printf("How many bones does a shark have?\n");
-    printf("A. 42\nB. 5\nC. 10\nD. 0\n");
+    printf("Who do you go to for questions about your courses\n");
+    printf("A. The professor\nB. Your friends\nC. The course calender\nD. Your program councellor\n");
 
     lifeChoice = ' '; // reinitialize the user's choice
     userAnswer = ' '; // reinitialize the user's answer
@@ -343,7 +343,7 @@ int main () {// indicates that we are running our main program
       if (lifeChoice =='Y'|| lifeChoice =='y'){// set if condition for yes to using the lifeline
         printf("OK - here are your 2 choices after using the 50-50 lifeline\n");
         lifeLine = 1;// set the value of lifeline to 1 as it is now used
-        printf("B. 5\nD. 0\n");
+        printf("B. Your friends\nD. Your program councellor\n");
         printf("Reminder - You get only 1 lifeline - and you are using it now\n");
         while(userAnswer!='B'&& userAnswer!='D'){// set condition for accepted characters for users answer
           printf("Enter your FINAL ANSWER ('B', or 'D') here:");
@@ -391,8 +391,8 @@ int main () {// indicates that we are running our main program
 
     ++currentQuestion; // updates the while condition by increasing current question by 1
     printf("Question 6: Here is the $50,000 question\n");
-    printf("What is the largest ocean on Earth?\n");
-    printf("A. Pacific\nB. Atlantic\nC. Indian\nD. Arctic\n");
+    printf("What clubs do we have at Guelph?\n");
+    printf("A. Both B and D\nB. Women in computing\nC. Botany Club\nD. Pre-law society\n");
 
     lifeChoice = ' ';// reinitializing the users choice
     userAnswer = ' ';// reinitializing the users answer
@@ -417,7 +417,7 @@ int main () {// indicates that we are running our main program
       if (lifeChoice =='Y'|| lifeChoice =='y'){// set the condition as if user said yes to lifeline
         printf("OK - here are your 2 choices after using the 50-50 lifeline\n");
         lifeLine = 1;// set value of lifeline to 1 as it has been used
-        printf("A. Pacific\nD. Arctic\n");
+        printf("A. Both B and D\nD. Pre-law society\n");
         printf("Reminder - You get only 1 lifeline - and you are using it now\n");
         while(userAnswer!='A'&& userAnswer!='D'){// set condition for appropriate characters for user's answer
           printf("Enter your FINAL ANSWER ('A', or 'D') here:");
@@ -465,8 +465,8 @@ int main () {// indicates that we are running our main program
 
     ++currentQuestion;// update the while condition by increasing the current question by 1
     printf("Question 7: Here is the $100,000 question\n");
-    printf("What is the name of the largest fish in the sea?\n");
-    printf("A. Blue whale\nB. Great white shark\nC. Hammerhead shark\nD. Whale shark\n");
+    printf("What are some student jobs on campus?\n");
+    printf("A. Residence Ambassador \nB. Teaching Assistant\nC. Plumber\nD. Both A and B\n");
 
     lifeChoice = ' ';// reinitializing user's choice
     userAnswer = ' ';// reinitializing user's answer
@@ -491,7 +491,7 @@ int main () {// indicates that we are running our main program
       if (lifeChoice =='Y'|| lifeChoice =='y'){// setting if condition for yes to using lifeline
         printf("OK - here are your 2 choices after using the 50-50 lifeline\n");
         lifeLine = 1;// set the value of lifeline to 1 because it has been used
-        printf("B. Great white shark\nD. Whale shark\n");
+        printf("B. Teaching Assistant\nD. Both A and B\n");
         printf("Reminder - You get only 1 lifeline - and you are using it now\n");
         while(userAnswer!='B'&& userAnswer!='D'){// set condition for accepted characters for users answer
           printf("Enter your FINAL ANSWER ('B', or 'D') here:");
